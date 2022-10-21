@@ -10,9 +10,10 @@
 		ED17B5AA2901AC7800A8606F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5A92901AC7800A8606F /* AppDelegate.swift */; };
 		ED17B5AC2901AC7800A8606F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5AB2901AC7800A8606F /* SceneDelegate.swift */; };
 		ED17B5AE2901AC7800A8606F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17B5AD2901AC7800A8606F /* ViewController.swift */; };
-		ED17B5B12901AC7800A8606F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5AF2901AC7800A8606F /* Main.storyboard */; };
 		ED17B5B32901AC7B00A8606F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5B22901AC7B00A8606F /* Assets.xcassets */; };
 		ED17B5B62901AC7B00A8606F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5B42901AC7B00A8606F /* LaunchScreen.storyboard */; };
+		ED17B5BE2901ACC700A8606F /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5BD2901ACC700A8606F /* alarm_sound.mp3 */; };
+		ED17B5C02901ACDD00A8606F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED17B5BF2901ACDD00A8606F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		ED17B5A92901AC7800A8606F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED17B5AB2901AC7800A8606F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED17B5AD2901AC7800A8606F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED17B5B02901AC7800A8606F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED17B5B22901AC7B00A8606F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED17B5B52901AC7B00A8606F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED17B5B72901AC7B00A8606F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED17B5BD2901ACC700A8606F /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		ED17B5BF2901ACDD00A8606F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				ED17B5A92901AC7800A8606F /* AppDelegate.swift */,
 				ED17B5AB2901AC7800A8606F /* SceneDelegate.swift */,
 				ED17B5AD2901AC7800A8606F /* ViewController.swift */,
-				ED17B5AF2901AC7800A8606F /* Main.storyboard */,
+				ED17B5BF2901ACDD00A8606F /* Main.storyboard */,
 				ED17B5B22901AC7B00A8606F /* Assets.xcassets */,
 				ED17B5B42901AC7B00A8606F /* LaunchScreen.storyboard */,
 				ED17B5B72901AC7B00A8606F /* Info.plist */,
+				ED17B5BD2901ACC700A8606F /* alarm_sound.mp3 */,
 			);
 			path = "Egg Timer App";
 			sourceTree = "<group>";
@@ -126,8 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED17B5B62901AC7B00A8606F /* LaunchScreen.storyboard in Resources */,
+				ED17B5C02901ACDD00A8606F /* Main.storyboard in Resources */,
 				ED17B5B32901AC7B00A8606F /* Assets.xcassets in Resources */,
-				ED17B5B12901AC7800A8606F /* Main.storyboard in Resources */,
+				ED17B5BE2901ACC700A8606F /* alarm_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED17B5AF2901AC7800A8606F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED17B5B02901AC7800A8606F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED17B5B42901AC7B00A8606F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
